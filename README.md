@@ -1,6 +1,6 @@
-# Jquery::Payment::Rails
+# jQuery.Payment for Rails asset pipeline
 
-TODO: Write a gem description
+This gem integrates [jQuery.payment](https://github.com/stripe/jquery.payment) plugin with Rails asset pipeline. 
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following to your `app/assets/javascripts/application.js`:
+
+    //= require jquery.payment
 
 ## Contributing
 
